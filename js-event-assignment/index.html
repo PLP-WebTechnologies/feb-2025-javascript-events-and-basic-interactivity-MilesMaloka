@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>JavaScript Playground</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -15,11 +15,19 @@
   <div id="hoverBox">Hover over me!</div>
   <input type="text" id="keyInput" placeholder="Type something..." />
 
-  <!-- Interactive Elements -->
+  <!-- Interactive Elements: Color Change -->
   <button id="colorBtn">Change My Color</button>
+
+  <!-- Image Slider -->
   <div class="gallery">
-    <img id="galleryImage" src="img1.jpg" alt="Slideshow" />
-    <button id="nextImg">Next</button>
+    <div class="slider" id="slider">
+      <img src="./galleryImage/img1.jpg" alt="Slide 1" />
+      <img src="./galleryImage/img2.jpg" alt="Slide 2" />
+      <img src="./galleryImage/img3.jpg" alt="Slide 3" />
+      <img src="./galleryImage/img4.jpg" alt="Slide 4" />
+     
+    </div>
+    <button id="nextBtn">Next</button>
   </div>
 
   <!-- Form Validation -->
