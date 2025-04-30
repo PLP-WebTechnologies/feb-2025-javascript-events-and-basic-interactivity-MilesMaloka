@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  #hoverBox {
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px 0;
+    text-align: center;
+    line-height: 100px;
+    transition: background-color 0.3s;
+  }
+  
+  #colorBtn {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .gallery {
+    width: 200px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slider img {
+    width: 200px;
+    height: auto;
+    flex-shrink: 0;
+  }
+  
